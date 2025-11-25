@@ -84,15 +84,6 @@ function Exercise() {
   return (
     <div>
       <PostCard posts={posts} />
-      
-      <div className="text-center py-6 bg-gray-100">
-        <p className="text-gray-600 text-lg">
-          Total Posts: <span className="font-semibold text-gray-800">{posts.length}</span>
-        </p>
-        <p className="text-gray-500 text-sm mt-2">
-          Data dari JSONPlaceholder API
-        </p>
-      </div>
     </div>
   );
 }
